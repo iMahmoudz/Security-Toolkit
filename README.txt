@@ -50,7 +50,7 @@ Ensure you have the following installed:
 1. Clone the repository:
    bash
    git clone https://github.com/yourusername/Security-Toolkit.git
-   cd security-toolkit
+   cd Security-Toolkit
    
 
 2. Compile the source code:
