@@ -57,7 +57,7 @@ Ensure you have the following installed:
 
 2. Compile the source code:
    ```bash
-   gcc -Wall -Wextra -o security_toolkit code.c -lssl -lcrypto -lz -lzip -lcurl -lmagic
+   gcc -Wall -Wextra -o security_toolkit main.c -lssl -lcrypto -lz -lzip -lcurl -lmagic
    ```
 
 3. Run the toolkit:
