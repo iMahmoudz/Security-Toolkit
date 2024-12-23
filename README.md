@@ -57,10 +57,19 @@ Ensure you have the following installed:
 
 2. Compile the source code:
    ```bash
+   sudo apt install libssl-dev
+    ```
+   ```bash
+   sudo apt install libzip-dev
+    ```
+   ```bash
+   sudo apt install libcurl4-openssl-dev
+    ```
+   ```bash
    gcc -Wall -Wextra -o security_toolkit main.c -lssl -lcrypto -lz -lzip -lcurl -lmagic
    ```
 
-3. Run the toolkit:
+4. Run the toolkit:
    ```bash
    ./security_toolkit
    ```
